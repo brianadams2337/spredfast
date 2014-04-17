@@ -1,0 +1,64 @@
+body {
+	background: url(../images/bg-texture-steel.png) repeat;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+h1 {
+	background: url(../images/title-awesome-bands.png) no-repeat;
+	width: 570px;
+	height: 70px;
+	margin: 100px auto 50px;
+	text-indent: -9999px;
+	font-family: Georgia;
+	font-size: 72px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.leaderboard {
+	background: rgba(29, 29, 29, 0.9);
+	border: solid #ffffff 5px;
+	border-radius: 30px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	width: 500px;
+}
+
+.row {
+	width: 90%;
+	height: 48px;
+	line-height: 48px;
+	padding: 0% 5%;
+	border-bottom: solid #333333 2px;
+	overflow: hidden;
+	position: absolute;
+	-webkit-transition: background 0.3s; /* For Safari 3.1 to 6.0 */
+	transition: background 0.3s;
+}
+
+.row.moving {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.name {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	float: left;
+}
+
+.count {
+	float: right;
+}
+
+.countValue {
+	font-size: 18px;
+	font-weight: bold;
+	color: #9e0b0f;
+}
+
+.countSuffix {
+	font-size: 14px;
+	color: #ffffff;
+}
